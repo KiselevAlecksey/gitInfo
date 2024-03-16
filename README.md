@@ -1,5 +1,13 @@
-## Подробная инструкция по работе с Git и GitHub
+# Памятка по работе с Git и GitHub
 
-# <img align="middle" src="https://github.com/KiselevAlecksey/gitInfo/blob/master/media/gitTitle.jpg" width="400" alt="gitTitle">
+# ![gitTitle](https://raw.githubusercontent.com/KiselevAlecksey/gitInfo/master/media/gitTitle.jpg)
 
-# ![gitTitle](https://github.com/KiselevAlecksey/gitInfo/blob/master/media/gitTitle.jpg)
+## Установка Git
+
+1. Перейдите [на эту страницу официального сайта Git.](https://git-scm.com/download/win)  
+2. Скачайте одну из двух версий из категории Standalone Installer (англ. «автономный установщик»).
+3. Запустите программу установки. Обратите внимание, куда будет установлен Git. Обычно это директория C:\Program Files\Git  
+4. Проверьте, что в списке устанавливаемых программ стоит галочка напротив пункта Git Bash Here — это позволит открывать консоль с Git в любой папке. 
+5. Далее установщик предложит много опций. Для наших целей достаточно оставить все настройки по умолчанию.  
+Несколько раз нажмите Next (англ. «далее»), пока не начнётся процесс установки.
+6. После окончания установки нажмите Finish (англ. «завершить»).
