@@ -289,7 +289,7 @@ ls -a ~/.ssh
 ```
  Hi %ВАШ_АККАУНТ%! You've successfully authenticated, but GitHub does not provide shell access.
 ```
-### Привязать удалённый репозиторий к локальному — git remote add
+### Привязать удалённый репозиторий к локальному — `git remote add`
 
 Перейдите на страницу удалённого репозитория, выберите тип SSH и скопируйте URL. Кнопка справа позволит сделать это мгновенно.
 
@@ -302,7 +302,7 @@ $ cd ~/dev/first-project
 $ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git
 ```
 
-### Убедиться, что репозитории связаны, — git remote -v
+### Убедиться, что репозитории связаны, — `git remote -v`
 
 ```
 $ git remote -v
@@ -454,14 +454,14 @@ $ git push -u origin main # Если команда приведёт к ошиб
 
 
 
-`````MARKDOWN  
+````MARKDOWN  
 ```bash
 ls - la
 ```
 ```html
 <h1>А я просто текст</h1>
-```  
-`````
+``` 
+````
 
 Обратите внимание: вторая тройка тройных кавычек стоит на отдельной строке.
 
