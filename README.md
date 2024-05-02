@@ -403,11 +403,17 @@ Git хранит таблицу соответствий хеш → информ
 
 ```mermaid
 graph LR;
-    untraked -- "git add" --> staged;
-    staged --> tracked;
-    staged -- "changes" --> modified;
+    untraked
+(неотслеживаемый) -- "git add" --> staged
++tracked
+(в списке на коммит);
+    staged --> tracked
+(отслеживаемый);
+    staged -- "changes" --> modified
+(изменённый);
     modified -- "git add" --> staged;
-    tracked -- "changes" --> modified;
+    tracked -- "changes" --> modified
+(изменённый);
 ```
 
 1. Файл только что создали. Git ещё не отслеживает его содержимое. Состояние: untracked.
