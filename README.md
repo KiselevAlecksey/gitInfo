@@ -403,10 +403,10 @@ Git хранит таблицу соответствий хеш → информ
 
 ```mermaid
 graph LR;
-    untraked -- "git add" --> staged;
-    staged --> tracked;
-    staged -- "changes" --> modified;
-    modified -- "git add" --> staged;
+    untraked -- "git add" --> staged+tracked;
+    staged+tracked --> tracked;
+    staged+tracked -- "changes" --> modified;
+    modified -- "git add" --> staged+tracked;
     tracked -- "changes" --> modified;
 ```
 
